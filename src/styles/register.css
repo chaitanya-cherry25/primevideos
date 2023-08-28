@@ -1,0 +1,37 @@
+button{
+    color: black;
+    background-color: #f5d68b;
+}
+.register-parent{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 0.5rem;
+    
+}
+.ffff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+input{
+    border-radius: 10px;
+    height: 2rem;
+    padding: 0 1rem 0 1rem;
+}
+p{
+    color: black;
+    font-size: small;
+}
+
+.rbutton{
+    padding:10px ;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+}

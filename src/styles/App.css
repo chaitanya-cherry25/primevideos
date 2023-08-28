@@ -1,0 +1,9 @@
+/* 
+.navbar-nav{
+  display: flex;
+  flex-direction: row !important;
+} */
+
+body{
+  background-color: #00050d;
+}

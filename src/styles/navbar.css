@@ -1,0 +1,127 @@
+.parent-class {
+    position: sticky;
+    top: 15px;
+    z-index: 5000;
+    
+}
+
+
+.nav-parent {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    margin: 1rem 3rem;
+    border-radius: 10px;
+    background-color: #00050d;
+
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    width: 30%;
+}
+
+.nav-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+select {
+    border: 0;
+    outline: none;
+    background-color: #00050d;
+    color: rgb(143, 143, 143);
+
+}
+
+option {
+    color: rgb(249, 249, 249);
+    background-color: black;
+}
+
+select:hover {
+    color: white;
+}
+
+b {
+    color: rgb(143, 143, 143);
+}
+
+b:hover {
+    color: white;
+
+}
+
+.open {
+    display: block;
+}
+
+.notopen {
+    display: none;
+}
+
+.search-btn {
+    color: white;
+    height: 1rem;
+    width: 1rem;
+}
+
+.search-btn:hover {
+    scale: 1.5;
+}
+
+.user {
+    color: white;
+    height: 1rem;
+    width: 2rem;
+}
+
+
+
+.inpsearch {
+    border: 8px solid #191e25;
+    padding: 0.5rem;
+    background-color: #33373d;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+    position: absolute;
+    top: 100%;
+    left: 30%;
+}
+
+.inp-search {
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #33373d;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+
+.input-search {
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #33373d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.searchbar {
+    color: white;
+    background-color: #33373d;
+    height: 1.6rem;
+    width: 1rem;
+}
