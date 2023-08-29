@@ -1,1 +1,1 @@
-export const baseurl = "http://server-cherry.codingschool.org.in/";
+export const baseurl = "https://server-cherry.codingschool.org.in/";
